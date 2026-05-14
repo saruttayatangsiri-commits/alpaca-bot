@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+*.log
+alpaca.log
+*.jsonl
+alpaca-paper-bot/
