@@ -1,0 +1,183 @@
+{
+  "best_params": {
+    "ema_fast": 50,
+    "ema_slow": 200,
+    "rsi_period": 14,
+    "rsi_overbought": 80,
+    "sl_pct": 0.1,
+    "tp_pct": 999.0,
+    "position_pct": 0.25,
+    "use_trailing": false,
+    "require_volume": false
+  },
+  "best_score": 19.39682005999281,
+  "best_results_summary": {
+    "avg_return": 27.30203689453125,
+    "total_trades": 22,
+    "avg_win_rate": 76.66666666666666,
+    "avg_drawdown": 4.610433669076887
+  },
+  "top_10": [
+    {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.1,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 27.30203689453125,
+      "total_trades": 22,
+      "avg_score": 19.39682005999281
+    },
+    {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.08,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 23.68115812289429,
+      "total_trades": 22,
+      "avg_score": 15.724381288355843
+    },
+    {
+      "params": {
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.05,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 22.972619022254943,
+      "total_trades": 99,
+      "avg_score": 15.326275840796743
+    },
+    {
+      "params": {
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.08,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 23.73910254318238,
+      "total_trades": 99,
+      "avg_score": 13.932984931502892
+    },
+    {
+      "params": {
+        "ema_fast": 12,
+        "ema_slow": 26,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.1,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 22.32280692127228,
+      "total_trades": 190,
+      "avg_score": 11.783179627907758
+    },
+    {
+      "params": {
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.1,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 22.61142221944809,
+      "total_trades": 99,
+      "avg_score": 11.733972499129452
+    },
+    {
+      "params": {
+        "ema_fast": 9,
+        "ema_slow": 21,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.08,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 24.118829658420566,
+      "total_trades": 249,
+      "avg_score": 10.156050634647322
+    },
+    {
+      "params": {
+        "ema_fast": 9,
+        "ema_slow": 21,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.05,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 22.664148721752166,
+      "total_trades": 249,
+      "avg_score": 9.784074353488823
+    },
+    {
+      "params": {
+        "ema_fast": 9,
+        "ema_slow": 21,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.1,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 23.651157531566618,
+      "total_trades": 249,
+      "avg_score": 9.049992571087587
+    },
+    {
+      "params": {
+        "ema_fast": 12,
+        "ema_slow": 26,
+        "rsi_period": 14,
+        "rsi_overbought": 80,
+        "sl_pct": 0.05,
+        "tp_pct": 999.0,
+        "position_pct": 0.25,
+        "use_trailing": false,
+        "require_volume": false
+      },
+      "avg_return": 18.820347692146285,
+      "total_trades": 190,
+      "avg_score": 7.8973806850809325
+    }
+  ],
+  "run_at": "2026-04-11T10:34:47.688366+00:00"
+}

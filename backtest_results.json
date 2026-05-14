@@ -1,0 +1,385 @@
+{
+  "strategy": "EMA 50/200 Cross + RSI 14 < 80",
+  "stop_loss_pct": 0.1,
+  "take_profit_pct": null,
+  "position_size_pct": 0.25,
+  "results": [
+    {
+      "symbol": "AAPL",
+      "initial_capital": 100000,
+      "final_equity": 101083.45555114746,
+      "total_return_pct": 1.083455551147461,
+      "total_trades": 4,
+      "wins": 2,
+      "losses": 2,
+      "win_rate": 50.0,
+      "max_drawdown_pct": 11.04932903691788,
+      "avg_hold_days": 243.0,
+      "sl_hits": 2,
+      "tp_hits": 0,
+      "death_cross_exits": 1,
+      "trades": [
+        {
+          "type": "STOP_LOSS",
+          "symbol": "AAPL",
+          "entry_date": "2022-08-09",
+          "exit_date": "2022-09-16",
+          "entry_price": 162.0482940673828,
+          "exit_price": 145.84346466064454,
+          "shares": 154,
+          "pnl": -2495.5437286376937,
+          "pnl_pct": -9.999999999999993,
+          "hold_days": 38
+        },
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "AAPL",
+          "entry_date": "2023-03-16",
+          "exit_date": "2024-03-27",
+          "entry_price": 153.62442016601562,
+          "exit_price": 171.7469482421875,
+          "shares": 158,
+          "pnl": 2863.3594360351562,
+          "pnl_pct": 11.796645387880131,
+          "hold_days": 377
+        },
+        {
+          "type": "STOP_LOSS",
+          "symbol": "AAPL",
+          "entry_date": "2024-05-20",
+          "exit_date": "2025-04-08",
+          "entry_price": 189.57383728027344,
+          "exit_price": 170.6164535522461,
+          "shares": 132,
+          "pnl": -2502.3746520996087,
+          "pnl_pct": -9.999999999999996,
+          "hold_days": 323
+        },
+        {
+          "type": "END_OF_TEST",
+          "symbol": "AAPL",
+          "entry_date": "2025-08-19",
+          "exit_date": "2026-04-10",
+          "entry_price": 230.1213836669922,
+          "exit_price": 260.4800109863281,
+          "shares": 106,
+          "pnl": 3218.0144958496094,
+          "pnl_pct": 13.192440804748419,
+          "hold_days": 234
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "initial_capital": 100000,
+      "final_equity": 109631.134765625,
+      "total_return_pct": 9.631134765625001,
+      "total_trades": 2,
+      "wins": 1,
+      "losses": 1,
+      "win_rate": 50.0,
+      "max_drawdown_pct": 7.116264427267479,
+      "avg_hold_days": 486.5,
+      "sl_hits": 0,
+      "tp_hits": 0,
+      "death_cross_exits": 2,
+      "trades": [
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "MSFT",
+          "entry_date": "2023-03-21",
+          "exit_date": "2025-03-04",
+          "entry_price": 267.4462890625,
+          "exit_price": 385.65753173828125,
+          "shares": 93,
+          "pnl": 10993.645568847656,
+          "pnl_pct": 44.19999360999032,
+          "hold_days": 714
+        },
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "MSFT",
+          "entry_date": "2025-05-16",
+          "exit_date": "2026-01-30",
+          "entry_price": 451.6463623046875,
+          "exit_price": 429.31011962890625,
+          "shares": 61,
+          "pnl": -1362.5108032226562,
+          "pnl_pct": -4.9455159035938125,
+          "hold_days": 259
+        }
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "initial_capital": 100000,
+      "final_equity": 130002.12744140625,
+      "total_return_pct": 30.00212744140625,
+      "total_trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "win_rate": 100.0,
+      "max_drawdown_pct": 10.767609100517019,
+      "avg_hold_days": 490.5,
+      "sl_hits": 0,
+      "tp_hits": 0,
+      "death_cross_exits": 1,
+      "trades": [
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "GOOGL",
+          "entry_date": "2023-05-10",
+          "exit_date": "2025-04-03",
+          "entry_price": 110.83396911621094,
+          "exit_price": 150.19920349121094,
+          "shares": 225,
+          "pnl": 8857.177734375,
+          "pnl_pct": 35.5173009582694,
+          "hold_days": 694
+        },
+        {
+          "type": "END_OF_TEST",
+          "symbol": "GOOGL",
+          "entry_date": "2025-06-27",
+          "exit_date": "2026-04-10",
+          "entry_price": 178.12847900390625,
+          "exit_price": 317.239990234375,
+          "shares": 152,
+          "pnl": 21144.94970703125,
+          "pnl_pct": 78.09616519962432,
+          "hold_days": 287
+        }
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "initial_capital": 100000,
+      "final_equity": 110919.6017074585,
+      "total_return_pct": 10.919601707458495,
+      "total_trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "win_rate": 100.0,
+      "max_drawdown_pct": 11.739779526115326,
+      "avg_hold_days": 480.5,
+      "sl_hits": 0,
+      "tp_hits": 0,
+      "death_cross_exits": 2,
+      "trades": [
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "AMZN",
+          "entry_date": "2023-06-01",
+          "exit_date": "2025-04-16",
+          "entry_price": 122.7699966430664,
+          "exit_price": 174.3300018310547,
+          "shares": 203,
+          "pnl": 10466.681053161621,
+          "pnl_pct": 41.99723596791367,
+          "hold_days": 685
+        },
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "AMZN",
+          "entry_date": "2025-05-30",
+          "exit_date": "2026-03-02",
+          "entry_price": 205.00999450683594,
+          "exit_price": 208.38999938964844,
+          "shares": 134,
+          "pnl": 452.920654296875,
+          "pnl_pct": 1.648702489331463,
+          "hold_days": 276
+        }
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "initial_capital": 100000,
+      "final_equity": 92737.7900177002,
+      "total_return_pct": -7.262209982299798,
+      "total_trades": 3,
+      "wins": 0,
+      "losses": 3,
+      "win_rate": 0.0,
+      "max_drawdown_pct": 7.29569658279844,
+      "avg_hold_days": 14.0,
+      "sl_hits": 3,
+      "tp_hits": 0,
+      "death_cross_exits": 0,
+      "trades": [
+        {
+          "type": "STOP_LOSS",
+          "symbol": "TSLA",
+          "entry_date": "2022-08-19",
+          "exit_date": "2022-09-01",
+          "entry_price": 296.6666564941406,
+          "exit_price": 266.9999908447266,
+          "shares": 84,
+          "pnl": -2491.999914550778,
+          "pnl_pct": -9.999999999999988,
+          "hold_days": 13
+        },
+        {
+          "type": "STOP_LOSS",
+          "symbol": "TSLA",
+          "entry_date": "2024-07-15",
+          "exit_date": "2024-07-24",
+          "entry_price": 252.63999938964844,
+          "exit_price": 227.3759994506836,
+          "shares": 96,
+          "pnl": -2425.343994140625,
+          "pnl_pct": -10.0,
+          "hold_days": 9
+        },
+        {
+          "type": "STOP_LOSS",
+          "symbol": "TSLA",
+          "entry_date": "2025-05-16",
+          "exit_date": "2025-06-05",
+          "entry_price": 349.9800109863281,
+          "exit_price": 314.9820098876953,
+          "shares": 67,
+          "pnl": -2344.8660736083984,
+          "pnl_pct": -10.0,
+          "hold_days": 20
+        }
+      ]
+    },
+    {
+      "symbol": "SPY",
+      "initial_capital": 100000,
+      "final_equity": 111572.73162841797,
+      "total_return_pct": 11.57273162841797,
+      "total_trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "win_rate": 66.66666666666666,
+      "max_drawdown_pct": 6.340565694888571,
+      "avg_hold_days": 370.6666666666667,
+      "sl_hits": 0,
+      "tp_hits": 0,
+      "death_cross_exits": 2,
+      "trades": [
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "SPY",
+          "entry_date": "2023-02-10",
+          "exit_date": "2023-03-17",
+          "entry_price": 391.16644287109375,
+          "exit_price": 375.2897644042969,
+          "shares": 63,
+          "pnl": -1000.2307434082031,
+          "pnl_pct": -4.058803804913533,
+          "hold_days": 34
+        },
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "SPY",
+          "entry_date": "2023-03-30",
+          "exit_date": "2025-04-16",
+          "entry_price": 388.4829406738281,
+          "exit_price": 519.7023315429688,
+          "shares": 63,
+          "pnl": 8266.82162475586,
+          "pnl_pct": 33.77738817605198,
+          "hold_days": 748
+        },
+        {
+          "type": "END_OF_TEST",
+          "symbol": "SPY",
+          "entry_date": "2025-05-15",
+          "exit_date": "2026-04-10",
+          "entry_price": 583.7680053710938,
+          "exit_price": 679.4600219726562,
+          "shares": 45,
+          "pnl": 4306.1407470703125,
+          "pnl_pct": 16.392131072810734,
+          "hold_days": 330
+        }
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "initial_capital": 100000,
+      "final_equity": 116413.29150390625,
+      "total_return_pct": 16.41329150390625,
+      "total_trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "win_rate": 100.0,
+      "max_drawdown_pct": 8.40526073667256,
+      "avg_hold_days": 537.0,
+      "sl_hits": 0,
+      "tp_hits": 0,
+      "death_cross_exits": 1,
+      "trades": [
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "QQQ",
+          "entry_date": "2023-03-27",
+          "exit_date": "2025-04-10",
+          "entry_price": 303.3786926269531,
+          "exit_price": 444.03070068359375,
+          "shares": 82,
+          "pnl": 11533.464660644531,
+          "pnl_pct": 46.361861091408976,
+          "hold_days": 745
+        },
+        {
+          "type": "END_OF_TEST",
+          "symbol": "QQQ",
+          "entry_date": "2025-05-16",
+          "exit_date": "2026-04-10",
+          "entry_price": 518.997802734375,
+          "exit_price": 611.0700073242188,
+          "shares": 53,
+          "pnl": 4879.826843261719,
+          "pnl_pct": 17.74038427614821,
+          "hold_days": 329
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "initial_capital": 100000,
+      "final_equity": 207658.03848266602,
+      "total_return_pct": 107.65803848266602,
+      "total_trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "win_rate": 100.0,
+      "max_drawdown_pct": 25.684446718670323,
+      "avg_hold_days": 559.0,
+      "sl_hits": 0,
+      "tp_hits": 0,
+      "death_cross_exits": 1,
+      "trades": [
+        {
+          "type": "DEATH_CROSS",
+          "symbol": "NVDA",
+          "entry_date": "2023-02-02",
+          "exit_date": "2025-04-07",
+          "entry_price": 21.68611717224121,
+          "exit_price": 97.61698913574219,
+          "shares": 1152,
+          "pnl": 87472.36450195312,
+          "pnl_pct": 350.13585585848654,
+          "hold_days": 794
+        },
+        {
+          "type": "END_OF_TEST",
+          "symbol": "NVDA",
+          "entry_date": "2025-05-21",
+          "exit_date": "2026-04-10",
+          "entry_price": 131.76895141601562,
+          "exit_price": 188.6300048828125,
+          "shares": 355,
+          "pnl": 20185.67398071289,
+          "pnl_pct": 43.152087692704974,
+          "hold_days": 324
+        }
+      ]
+    }
+  ],
+  "run_at": "2026-04-11T10:40:01.683868+00:00"
+}

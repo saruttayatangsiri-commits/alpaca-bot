@@ -1,0 +1,42 @@
+[
+  {
+    "type": "trade",
+    "timestamp": "2026-05-10T16:36:58.141226+00:00",
+    "action": "BUY",
+    "symbol": "TSLA",
+    "qty": 116,
+    "price": 428.3500061035156,
+    "sl_price": 385.5150054931641,
+    "reason": "Golden Cross + RSI(69.9) < 80"
+  },
+  {
+    "type": "trade",
+    "timestamp": "2026-05-10T23:31:54.475870+00:00",
+    "action": "BUY",
+    "symbol": "TSLA",
+    "qty": 87,
+    "price": 428.3500061035156,
+    "sl_price": 385.5150054931641,
+    "reason": "Golden Cross + RSI(69.9) < 80"
+  },
+  {
+    "type": "trade",
+    "timestamp": "2026-05-11T07:49:42.554564+00:00",
+    "action": "BUY",
+    "symbol": "TSLA",
+    "qty": 66,
+    "price": 428.3500061035156,
+    "sl_price": 385.5150054931641,
+    "reason": "Golden Cross + RSI(69.9) < 80"
+  },
+  {
+    "type": "trade",
+    "timestamp": "2026-05-11T13:27:52.161003+00:00",
+    "action": "BUY",
+    "symbol": "TSLA",
+    "qty": 50,
+    "price": 428.3500061035156,
+    "sl_price": 385.5150054931641,
+    "reason": "Golden Cross + RSI(69.9) < 80"
+  }
+]
